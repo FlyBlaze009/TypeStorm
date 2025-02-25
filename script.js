@@ -62,7 +62,7 @@ async function setupWords() {
 
 function startTimer() {
   clearInterval(timerInterval);
-  timeLeft = 5;
+  timeLeft = 60;
   timerElement.innerText = timeLeft;
 
   timerInterval = setInterval(() => {
